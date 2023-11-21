@@ -1,0 +1,29 @@
+{
+  "name": "slice-starter",
+  "version": "1.0.0",
+  "author": "Evgeny Danilchenko",
+  "license": "MIT",
+  "description": "Slice-Starter is a streamlined tool for quickly setting up feature-sliced architecture in projects. It automates the creation of slice structures, models, selectors, and sagas, making the initial setup process faster and more consistent.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "slice-starter": "cli.js"
+  },
+  "keywords": [
+    "feature-sliced",
+    "architecture",
+    "project-structure",
+    "code-organization",
+    "modular-design",
+    "front-end",
+    "scalability",
+    "maintainability",
+    "boilerplate",
+    "scaffolding",
+    "setup",
+    "tooling"
+  ]
+}
