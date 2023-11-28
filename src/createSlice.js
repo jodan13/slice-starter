@@ -17,7 +17,7 @@ export function createSlice() {
     const layersIndex = parseInt(number, 10) - 1;
 
     // Проверяем, валиден ли ввод
-    if (layersIndex < 0 || layersIndex >= layers.length) {
+    if (layersIndex < 0 || layersIndex >= layers.length || isNaN(layersIndex)) {
       console.error('Неправильный номер слоя.');
       rl.close();
       return;
